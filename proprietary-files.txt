@@ -154,7 +154,6 @@ vendor/firmware/DM1_S6E3FAC_AMB606AW01.dat
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
 # RIL
-vendor/etc/init/init.vendor.rilcarrier.rc
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_1.json
