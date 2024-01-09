@@ -14,7 +14,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Init
 PRODUCT_PACKAGES += \
-    init.dm1q.rc
+    init.q5q.rc
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -28,4 +28,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/samsung/dm1q/dm1q-vendor.mk)
+$(call inherit-product, vendor/samsung/q5q/q5q-vendor.mk)

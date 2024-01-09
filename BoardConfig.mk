@@ -7,10 +7,10 @@
 # Include the common OEM chipset BoardConfig.
 include device/samsung/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/dm1q
+DEVICE_PATH := device/samsung/q5q
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := dm1q
+TARGET_OTA_ASSERT_DEVICE := q5q
 
 # Display
 TARGET_SCREEN_DENSITY := 450

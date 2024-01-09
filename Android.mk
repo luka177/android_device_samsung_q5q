@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter dm1q,$(TARGET_DEVICE)),)
+ifneq ($(filter q5q,$(TARGET_DEVICE)),)
 
 WIFI_FIRMWARE_SYMLINKS := $(TARGET_OUT_VENDOR)/firmware/
 $(WIFI_FIRMWARE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)

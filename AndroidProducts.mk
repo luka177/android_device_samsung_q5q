@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dm1q.mk
+    $(LOCAL_DIR)/lineage_q5q.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dm1q-eng \
-    lineage_dm1q-user \
-    lineage_dm1q-userdebug
+    lineage_q5q-eng \
+    lineage_q5q-user \
+    lineage_q5q-userdebug

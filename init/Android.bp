@@ -4,8 +4,8 @@
 //
 
 prebuilt_etc {
-    name: "init.dm1q.rc",
-    src: "init.dm1q.rc",
+    name: "init.q5q.rc",
+    src: "init.q5q.rc",
     sub_dir: "init/hw",
     vendor: true,
 }

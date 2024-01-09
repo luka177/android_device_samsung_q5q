@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=dm1q
+export DEVICE=q5q
 export DEVICE_COMMON=sm8550-common
 export VENDOR=samsung
 export VENDOR_COMMON=${VENDOR}
