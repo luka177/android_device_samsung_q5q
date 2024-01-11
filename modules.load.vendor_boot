@@ -60,7 +60,6 @@ pinctrl-crow.ko
 pinctrl-kalama.ko
 qnoc-kalama.ko
 qnoc-crow.ko
-ns.ko
 nvmem_qcom-spmi-sdam.ko
 phy-qcom-ufs.ko
 phy-qcom-ufs-qmp-v4-kalama.ko
