@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := q5q
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/lego_GKI.config
+
 # Kernel Modules
 BOARD_SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
