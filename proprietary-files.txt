@@ -15,9 +15,11 @@ vendor/firmware/bt_nvm_loading_2nd.xml
 # Camera
 vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
 vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin
-vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
-vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin
+vendor/lib64/camera/com.samsung.sensormodule.11_sony_imx374.bin
+vendor/lib64/camera/com.samsung.sensormodule.12_sony_imx471_full.bin
+vendor/lib64/camera/com.samsung.sensormodule.13_sony_imx374_full.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_sony_imx471.bin
+vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx258.bin
 vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5k3k1.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5k3k1.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5kgn3.bin
@@ -92,8 +94,8 @@ vendor/lib64/camera/components/com.ss.stats.aec.so
 vendor/lib64/camera/components/com.ss.stats.af.so
 vendor/lib64/camera/components/com.ss.stats.awb.so
 vendor/lib64/camera/components/com.ss.stats.pdlib.so
-vendor/lib64/camera/components/libTsAeFront_dm3.so
-vendor/lib64/camera/components/libTsAe_dm2.so
+vendor/lib64/camera/components/libTsAeFront_q5.so
+vendor/lib64/camera/components/libTsAe_q5.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
@@ -146,9 +148,11 @@ vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/firmware/ois_mcu_stm32g_fw.bin
 
 # Display calibration data
-vendor/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json
-vendor/firmware/DM1_LX83118_CM002.dat
-vendor/firmware/DM1_S6E3FAC_AMB606AW01.dat
+vendor/etc/display/qdcm_calib_data_Q5_S6E3XA2_AMF756BQ03.json
+vendor/etc/display/qdcm_calib_data_Q5_S6E3FAC_AMB619EK01.json
+vendor/firmware/Q5_S6E3FAC_AMB619EK01.dat
+vendor/firmware/Q5_S6E3XA2_AMF756BQ03.dat
+vendor/firmware/Q5_S6E3XA2_AMF756EJ01.dat
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
@@ -156,12 +160,24 @@ vendor/etc/nfc/libnfc-nxp_RF.conf
 # RIL
 
 # Sensors config
-vendor/etc/sensors/config/kailua_ak991x_1.json
-vendor/etc/sensors/config/kailua_ak991x_2.json
-vendor/etc/sensors/config/kailua_ak991x_3.json
-vendor/etc/sensors/config/kailua_ak991x_8.json
-vendor/etc/sensors/config/kailua_lsm6dso_0_1.json
+vendor/etc/sensors/config/kailua_ak991x_0.json
+vendor/etc/sensors/config/kailua_default_sensors.json
+vendor/etc/sensors/config/kailua_dynamic_sensors_template.json
+vendor/etc/sensors/config/kailua_iot_hdk_dae.json
+vendor/etc/sensors/config/kailua_irq.json
+vendor/etc/sensors/config/kailua_lidangle_0.json
+vendor/etc/sensors/config/kailua_lps22df_0.json
+vendor/etc/sensors/config/kailua_lsm6dsv_0_0.json
+vendor/etc/sensors/config/kailua_lsm6dsv_0_4.json
+vendor/etc/sensors/config/kailua_lsm6dsv_0_5.json
+vendor/etc/sensors/config/kailua_lsm6dsv_1_0.json
+vendor/etc/sensors/config/kailua_power_0.json
+vendor/etc/sensors/config/kailua_qsh_ble_0.json
 vendor/etc/sensors/config/kailua_stk3a9x_0.json
+vendor/etc/sensors/config/kailua_tcs3407_0.json
+vendor/etc/sensors/config/lsm6dsv_0.json
+vendor/etc/sensors/config/lsm6dsv_1.json
+vendor/etc/sensors/config/sns_gpio_handling_0.json
 
 # Sensors
 vendor/bin/factory.ssc
@@ -170,7 +186,9 @@ vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
 # Touchscreen firmware
-vendor/firmware/tsp_stm/fts2ba61y_dm1q.bin
+vendor/firmware/tsp_stm/fst2ba61y_q5.bin
+vendor/firmware/tsp_stm/fst2ca78y_q5.bin
+vendor/firmware/tsp_stm/fst3ca60y_q5.bin
 
 # Vendor firmware
 vendor/firmware/hpbtfw21.tlv
@@ -182,7 +200,7 @@ vendor/firmware/hpnv21g.b9a
 vendor/firmware/hpnv21g.b9b
 vendor/firmware/hpnv21g.baa
 vendor/firmware/hpnv21g.bin
-vendor/firmware/mfc/mfc_fw_flash_s2miw04.bin
+vendor/firmware/mfc/mfc_fw_flash_nu1668.bin
 
 # Wifi firmware
 vendor/firmware/Data.msc
