@@ -13,6 +13,9 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/bt_nvm_loading_2nd.xml
 
 # Camera
+vendor/lib64/libTsAf_Q5B5Q.so
+vendor/lib64/libTsAwbFront_Q5.so
+vendor/lib64/libTsAwb_Q5.so
 vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
 vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin
 vendor/lib64/camera/com.samsung.sensormodule.11_sony_imx374.bin
@@ -21,6 +24,16 @@ vendor/lib64/camera/com.samsung.sensormodule.13_sony_imx374_full.bin
 vendor/lib64/camera/com.samsung.sensormodule.1_sony_imx471.bin
 vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx258.bin
 vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5k3k1.bin
+vendor/lib64/camera/com.samsung.sensor.hi1337.so
+vendor/lib64/camera/com.samsung.sensor.hi847.so
+vendor/lib64/camera/com.samsung.sensor.imx258.so
+vendor/lib64/camera/com.samsung.sensor.imx374.so
+vendor/lib64/camera/com.samsung.sensor.imx471.so
+vendor/lib64/camera/com.samsung.sensor.s5k2ld.so
+vendor/lib64/camera/com.samsung.sensor.s5k3j1.so
+vendor/lib64/camera/com.samsung.tuned.sony_imx258.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx374.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx471.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5k3k1.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5kgn3.bin
 vendor/lib64/camera/components/com.qti.eisv2.so
@@ -190,16 +203,25 @@ vendor/firmware/tsp_stm/fst2ba61y_q5.bin
 vendor/firmware/tsp_stm/fst2ca78y_q5.bin
 vendor/firmware/tsp_stm/fst3ca60y_q5.bin
 
+# VPU
+vendor/firmware/wez01_q4.bin
+vendor/firmware/wez01_q5_integrated.bin
+vendor/firmware/wez01_q5_separated.bin
+
 # Vendor firmware
 vendor/firmware/hpbtfw21.tlv
 vendor/firmware/hpnv21.b9a
 vendor/firmware/hpnv21.b9b
 vendor/firmware/hpnv21.baa
 vendor/firmware/hpnv21.bin
+vendor/firmware/hpnv21.bb7
+vendor/firmware/hpnv21.bb9
 vendor/firmware/hpnv21g.b9a
 vendor/firmware/hpnv21g.b9b
 vendor/firmware/hpnv21g.baa
 vendor/firmware/hpnv21g.bin
+vendor/firmware/hpnv21g.bb7
+vendor/firmware/hpnv21g.bb9
 vendor/firmware/mfc/mfc_fw_flash_nu1668.bin
 
 # Wifi firmware
@@ -218,3 +240,6 @@ vendor/firmware/qca6490/regdb.bin
 
 # WiFi
 vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
+
+# Display
+vendor/firmware/ss_dsi_panel_PBA_BOOTING_FHD_DSI1.dat
