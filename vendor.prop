@@ -1,1 +1,6 @@
 ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+
+## Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=265|955|250
+ro.vendor.fingerprint.supports_gestures=true
