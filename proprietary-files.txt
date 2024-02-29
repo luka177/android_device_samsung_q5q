@@ -13,6 +13,11 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/bt_nvm_loading_2nd.xml
 
 # Camera
+vendor/lib64/com.qti.chiusecaseselector.so
+vendor/lib64/libautoframing_object_tracker.camera.samsung.so
+vendor/lib64/libarcsoft_udc_enhancement.so
+vendor/lib64/libAISegmenter_v1.camera.samsung.so
+vendor/lib64/SWPD_libTsAf_3K1_TELE.so
 vendor/lib64/libTsAf_Q5B5Q.so
 vendor/lib64/libTsAwbFront_Q5.so
 vendor/lib64/libTsAwb_Q5.so
@@ -53,6 +58,7 @@ vendor/lib64/camera/components/com.qti.node.eisv2.so
 vendor/lib64/camera/components/com.qti.node.eisv3.so
 vendor/lib64/camera/components/com.qti.node.fcv.so
 vendor/lib64/camera/components/com.qti.node.formatconversion.so
+vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/camera/components/com.qti.node.gme.so
 vendor/lib64/camera/components/com.qti.node.gpu.so
 vendor/lib64/camera/components/com.qti.node.gyrornn.so
@@ -158,7 +164,56 @@ vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 
 # Camera firmware
+vendor/firmware/CAMERA_ICP.b00
+vendor/firmware/CAMERA_ICP.b01
+vendor/firmware/CAMERA_ICP.b02
+vendor/firmware/CAMERA_ICP.b03
+vendor/firmware/CAMERA_ICP.b04
+vendor/firmware/CAMERA_ICP.b05
+vendor/firmware/CAMERA_ICP.b06
+vendor/firmware/CAMERA_ICP.b07
+vendor/firmware/CAMERA_ICP.b08
+vendor/firmware/CAMERA_ICP.b09
+vendor/firmware/CAMERA_ICP.b10
+vendor/firmware/CAMERA_ICP.b11
+vendor/firmware/CAMERA_ICP.b12
+vendor/firmware/CAMERA_ICP.b13
+vendor/firmware/CAMERA_ICP.b14
+vendor/firmware/CAMERA_ICP.b15
+vendor/firmware/CAMERA_ICP.b16
+vendor/firmware/CAMERA_ICP.b17
+vendor/firmware/CAMERA_ICP.b18
+vendor/firmware/CAMERA_ICP.b19
+vendor/firmware/CAMERA_ICP.b20
+vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/CAMERA_ICP.mdt
+vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/ois_mcu_stm32g_fw.bin
+
+# EVA firmware
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_Q5_S6E3XA2_AMF756BQ03.json
@@ -203,10 +258,20 @@ vendor/firmware/tsp_stm/fst2ba61y_q5.bin
 vendor/firmware/tsp_stm/fst2ca78y_q5.bin
 vendor/firmware/tsp_stm/fst3ca60y_q5.bin
 
-# VPU
+# Wacom fw
 vendor/firmware/wez01_q4.bin
 vendor/firmware/wez01_q5_integrated.bin
 vendor/firmware/wez01_q5_separated.bin
+
+# VPU firmware
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
+vendor/firmware/vpu30_4v.mbn
+vendor/firmware/vpu30_4v_16mb.mbn
+vendor/firmware/vpu30_4v_16mb_unsigned.mbn
+vendor/firmware/vpu30_4v_unsigned.mbn
+vendor/firmware/vpu33_4v.mbn
+vendor/firmware/vpu33_4v_unsigned.mbn
 
 # Vendor firmware
 vendor/firmware/hpbtfw21.tlv
@@ -241,6 +306,24 @@ vendor/firmware/qca6490/regdb.bin
 # WiFi
 vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
 
+# Graphics (Adreno firmware)
+vendor/firmware/a740_sqe.fw
+vendor/firmware/a740_zap.b00
+vendor/firmware/a740_zap.b01
+vendor/firmware/a740_zap.b02
+vendor/firmware/a740_zap.elf
+vendor/firmware/a740_zap.mbn
+vendor/firmware/a740_zap.mdt
+
 # Display
+vendor/etc/devicestate/device_state_configuration.xml
 vendor/firmware/ss_dsi_panel_PBA_BOOTING_FHD_DSI1.dat
+vendor/etc/displayconfig/display_layout_configuration.xml
 vendor/etc/input-port-associations.xml
+
+# Unihal
+vendor/lib64/liblocaltm_preview.uniplugin@1.0.so
+vendor/lib64/libudcrestoration_preview.uniplugin@1.0.so
+vendor/lib64/libudcrestoration_saqe.uniplugin@1.0.so
+vendor/lib64/libudcrestoration_snapshot.uniplugin@1.0.so
+vendor/lib64/libudcrestoration_video.uniplugin@1.0.so
