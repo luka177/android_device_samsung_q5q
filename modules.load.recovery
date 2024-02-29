@@ -122,7 +122,6 @@ bcl_pmic5.ko
 nvme-core.ko
 nvme.ko
 sec_qc_debug.ko
-sec_qc_summary.ko
 sec_qc_dbg_partition.ko
 sec_qc_param.ko
 spmi-pmic-arb-debug.ko
@@ -274,7 +273,6 @@ qti_devfreq_cdev.ko
 qti_userspace_cdev.ko
 sdpm_clk.ko
 qcom_edac.ko
-cpufreq_limit.ko
 qcom-cpufreq-hw-debug.ko
 qcom_lpm.ko
 sdhci-msm-sec.ko
